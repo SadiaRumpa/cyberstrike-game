@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CyberStrike: Terminal Defense</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="terminal">
+    <h1>🛡️ CYBERSTRIKE: TERMINAL DEFENSE 🛡️</h1>
+
+    <div class="stats">
+      <p id="health">Health: ██████████ 100%</p>
+      <p id="firewall">Firewall: Level 5</p>
+      <p id="money">Money: 💰 $100</p>
+    </div>
+
+    <div class="attack" id="attack">
+      <p>📡 Waiting for incoming attack...</p>
+    </div>
+
+    <div class="choices">
+      <button onclick="chooseAction(1)">[1]</button>
+      <button onclick="chooseAction(2)">[2]</button>
+      <button onclick="chooseAction(3)">[3]</button>
+      <button onclick="chooseAction(4)">[4]</button>
+    </div>
+
+    <div class="upgrade-buttons">
+      <button onclick="upgradeFirewall()">Upgrade Firewall ($30)</button>
+      <button onclick="enableAntivirus()">Enable Antivirus ($50)</button>
+    </div>
+
+    <div class="footer">
+      <p>Defend your network. Choose wisely.</p>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

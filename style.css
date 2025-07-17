@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: #00ff00;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.terminal {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid #00ff00;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.stats {
+  margin-bottom: 1rem;
+}
+
+.attack {
+  margin: 1rem 0;
+}
+
+.choices {
+  margin: 1rem 0;
+}
+
+.choices button {
+  background: black;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px 20px;
+  margin: 5px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.choices button:hover {
+  background-color: #00ff00;
+  color: black;
+}
+
+.upgrade-buttons {
+  margin: 1rem 0;
+}
+
+.upgrade-buttons button {
+  background: black;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px;
+  margin: 5px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.upgrade-buttons button:hover {
+  background-color: #00ff00;
+  color: black;
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
